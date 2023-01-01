@@ -1,0 +1,23 @@
+body::before{
+    display: block;
+    content: '';
+    height: 100px;
+}
+.map-container{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+  }
+  .map-container iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+  }
+@media(min-width:768px){
+    .news-input{
+        width: 50%;
+    }
+}
